@@ -1,0 +1,346 @@
+/* reseting all the styles */
+/* Working Code */
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: black;
+    overflow-x: hidden;
+}
+
+html{
+  height: 100%;
+
+}
+
+h1{
+  margin: 0;
+}
+
+h3{
+  margin: 0;
+}
+
+h2{
+  margin: 0;
+}
+/* Content*/
+.content{
+  width: 100%;
+  height: 2000px;
+
+}
+
+header{
+  height: 120px;
+  background: #29353b;
+}
+
+.col-sm-6 {
+  padding: 0px !important;
+}
+.logo-img{
+  float: left;
+  padding: 17px 5px;
+}
+
+/* Styling of the first Jumbotron */
+
+
+.firstjumbo{
+  background-image: url("woodyback.jpg");
+  margin-bottom: 0px !important;
+}
+
+#jumboHeader{
+  font-size: 500%;
+  font-family: longtime;
+  padding: 12px 45px;
+}
+
+#slogan{
+  font-family: palantin;
+  font-size: 260%;
+  padding: 12px 60px;
+}
+
+/*----styling of the welcome div----*/
+
+.welcomeDiv{
+  width: 100%;
+  height: auto;
+  min-height: 250px;
+  background: #ccbd8a;
+  text-align: center;
+}
+
+.welcomeContainer{
+  width: 70%;
+  height: auto;
+}
+
+.centerElement{
+  margin: 0 auto;
+}
+
+.welcomeHeader{
+  font-weight: bold;
+  padding: 15px 0px;
+  font-size: 170%;
+  text-transform: capitalize;
+}
+
+.welcomePara{
+  padding: 15px 0px;
+  font-size: 120%;
+}
+
+.welcome-read-more-btn{
+  width: 30px;
+  height: 24px;
+  font-size: 20px;
+  position: relative;
+  top: -14px;
+  padding: 14px;
+  background: #acacac;
+  text-decoration: none;
+}
+
+.welcome-read-more-btn:hover{
+  text-decoration: none;
+  background-color: #29353b;
+  color: #acacac;
+}
+
+.curveBtn{
+  border-radius: 10px;
+}
+
+.centerInside{
+  text-align: center;
+}
+
+.cap{
+  text-transform: uppercase;
+}
+
+/*--------- For Extra Information (Why Us? Infrastructure)   */
+
+.extraInfo{
+  width: 100%;
+  height: auto;
+  min-height: 200px;
+  background: #38524d;
+}
+
+.whyUsWrapper{
+  background: #38524d;
+  min-height: 200px;
+}
+
+.whyUs{
+  height: auto;
+}
+
+#whyUsPara{
+  color: #bdd1c8;
+  font-size: 130%;
+  padding: 20px 0px;
+  margin: 0 !important;
+}
+
+#question-img{
+  width: 50px;
+  height:50px;
+  margin: 15px 0px;
+}
+
+/*----- For Infrastructure div -------*/
+
+.infrastructureWrapper{
+  background: #38524d;
+  min-height: 200px;
+}
+
+#infraPara{
+  margin: 0 !important;
+  color: #bdd1c8;
+  font-size: 130%;
+  padding: 20px 0px;
+}
+
+.infrastructure{
+  height: auto;
+}
+
+/*      For ProductList div       */
+
+.productList{
+  background: #bdd1c8;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.productListPart{
+  background: #bdd1c8;
+}
+
+#productListHeader{
+
+  font-family: monospace;
+  font-weight: bold;
+  color: #366743;
+  margin: 0 auto !important;
+  padding: 15px;
+
+}
+
+ul{
+  list-style-type: none;
+}
+
+.productName{
+  line-height: 1.2;
+  font-size: 20px;
+  display: block;
+  padding: 10px;
+  color: #366743;
+  text-decoration: none;
+}
+
+.productName:hover {
+  background: #555555;
+  color: #f4a907;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* -------- For download and Contact Us Div --------- */
+
+.contactDivWrapper{
+  width: 100%;
+  height: auto;
+
+}
+
+.contactDiv{
+  width: 100%;
+}
+
+.contactPic{
+  width: 100%;
+  text-align: center;
+}
+
+.contactSubWrapper{
+  text-align: center;
+}
+
+.contactSubHeader{
+  padding: 5px;
+  margin: 0 !important;
+}
+
+.cardContact{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    padding: 20px 0px;
+    /*text-align: center;*/
+}
+
+.cardContact:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#avatar{
+  width: 64px;
+  height: 64px;
+}
+
+.contactName{
+  margin: 0 !important;
+  padding: 5px;
+}
+
+.downloadDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 570px;
+}
+
+#downloadBtn{
+  padding: 10px;
+  background: #999999;
+  display: block;
+}
+
+/* For the dev's signature */
+
+.devsFooter{
+  width: 100%;
+  height: auto;
+}
+
+#created{
+    font-weight: bold;
+    color: #ccc;
+    margin: 0 !important;
+    padding: 10px 0px;
+    font-size: 90%;
+}
+
+#myName{
+    color: orange;
+}
+
+#myName:hover{
+  color: #00c7ff;
+}
+
+.devName{
+  text-align: center;
+  background: #29353b;
+}
+
+.copyrights{
+  text-align: center;
+  background: #29353b;
+  color: #ccc;
+}
+
+#rights{
+  font-size: 90%;
+  margin: 0 !important;
+  padding: 10px 0px;
+}
+
+/* Different fonts */
+
+@font-face {
+  font-family: juice;
+  src: url("JUICERegular.ttf");
+}
+
+
+@font-face {
+  font-family: palantin;
+  src: url("palanquindark-semibold.ttf");
+}
+
+@font-face {
+  font-family: flatley;
+  src: url("Flatley.ttf");
+}
+
+@font-face {
+  font-family: longtime;
+  src: url("LongTime.ttf");
+}

@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: black;
+    overflow-x: hidden;
+}
+
+html{
+  height: 100%;
+
+}
+
+h1{
+  margin: 0;
+}
+
+h3{
+  margin: 0;
+}
+
+h2{
+  margin: 0;
+}
+
+/* For the dev's signature */
+
+.devsFooter{
+  width: 100%;
+  height: auto;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+#created{
+    font-weight: bold;
+    color: #ccc;
+    margin: 0 !important;
+    padding: 10px 0px;
+    font-size: 90%;
+}
+
+#myName{
+    color: orange;
+}
+
+#myName:hover{
+  color: #00c7ff;
+}
+
+.devName{
+  text-align: center;
+  background: #29353b;
+}
+
+.copyrights{
+  text-align: center;
+  background: #29353b;
+  color: #ccc;
+}
+
+#rights{
+  font-size: 90%;
+  margin: 0 !important;
+  padding: 10px 0px;
+}
