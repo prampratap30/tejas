@@ -27,6 +27,39 @@ h2{
   margin: 0;
 }
 
+/* for logo div */
+header{
+  height: 120px;
+  background: #29353b;
+}
+
+.col-sm-6 {
+  padding: 0px !important;
+}
+.logo-img{
+  float: left;
+  padding: 17px 5px;
+}
+
+/* for the heading div */
+
+.firstjumbo{
+  background-image: url("woodyback.jpg");
+  margin-bottom: 0px !important;
+}
+
+#jumboHeader{
+  font-size: 500%;
+  font-family: longtime;
+  padding: 12px 45px;
+}
+
+#slogan{
+  font-family: palantin;
+  font-size: 260%;
+  padding: 12px 60px;
+}
+
 /* For the dev's signature */
 
 .devsFooter{
