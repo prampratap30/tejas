@@ -1,0 +1,170 @@
+/* reseting all the styles */
+/* Working Code */
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html{
+  height: 100%;
+
+}
+
+h1{
+  margin: 0;
+}
+
+h3{
+  margin: 0;
+}
+
+h2{
+  margin: 0;
+}
+
+/* Content  */
+
+header{
+  height: 120px;
+  background: #29353b;
+}
+
+.logo-img{
+  float: left;
+  padding: 17px 5px;
+}
+
+/* Jumbotron  */
+.jumbo{
+  background-image: url("woodyback.jpg");
+  margin-bottom: 0px !important;
+  text-align: center;
+}
+
+#serviceHeader{
+  font-family: longtime;
+  font-size: 380%;
+  font-weight: bold;
+}
+
+#serviceSlogan{
+
+    font-family: juice;
+    font-size: 200%;
+}
+
+/* For Content    */
+
+.serviceContent{
+  width: 100%;
+  text-align: center;
+}
+
+.serviceContainer{
+  width: 80%;
+  margin: 0 auto;
+}
+
+#serviceList{
+  list-style-type: none;
+}
+
+#intro{
+  font-size: 22px;
+  font-weight: bold;
+  margin: 15px 0px;
+}
+
+#introt{
+  font-size: 20px;
+}
+
+#service-img{
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+
+#serviceList li{
+  font-size: 18px;
+  border-radius: 15px;
+  font-family: juice;
+  padding: 5px;
+}
+
+#serviceList li:hover{
+  font-size: 20px;
+  background: #ccc;
+}
+
+.boldText{
+  font-weight: bold;
+}
+
+/* For the dev's signature */
+
+.devsFooter{
+  width: 100%;
+  height: auto;
+}
+
+#created{
+    font-weight: bold;
+    color: #ccc;
+    margin: 0 !important;
+    padding: 10px 0px;
+    font-size: 90%;
+}
+
+#myName{
+    color: orange;
+}
+
+#myName:hover{
+  color: #00c7ff;
+}
+
+.devName{
+  text-align: center;
+  background: #29353b;
+}
+
+.copyrights{
+  text-align: center;
+  background: #29353b;
+  color: #ccc;
+}
+
+#rights{
+  font-size: 90%;
+  margin: 0 !important;
+  padding: 10px 0px;
+}
+
+/* Different fonts */
+
+@font-face {
+  font-family: juice;
+  src: url("JUICERegular.ttf");
+}
+
+
+@font-face {
+  font-family: palantin;
+  src: url("palanquindark-semibold.ttf");
+}
+
+@font-face {
+  font-family: flatley;
+  src: url("Flatley.ttf");
+}
+
+@font-face {
+  font-family: longtime;
+  src: url("LongTime.ttf");
+}
