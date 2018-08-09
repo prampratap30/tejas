@@ -60,14 +60,49 @@ header{
   padding: 12px 60px;
 }
 
+/* for the list div */
+.list{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.listContainer{
+  width: 75%;
+  margin: 0 auto;
+}
+
+#benefitsList{
+  list-style-type: none;
+}
+
+#benefitHeader{
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0!important;
+  padding: 20px 0px;
+  font-family: palantin;
+}
+
+.benefit{
+  padding: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+}
+
+.benefit:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 /* For the dev's signature */
 
 .devsFooter{
   width: 100%;
   height: auto;
-  position: fixed;
-  left: 0;
-  bottom: 0;
 }
 
 #created{
@@ -102,4 +137,27 @@ header{
   font-size: 90%;
   margin: 0 !important;
   padding: 10px 0px;
+}
+
+/* Different fonts */
+
+@font-face {
+  font-family: juice;
+  src: url("JUICERegular.ttf");
+}
+
+
+@font-face {
+  font-family: palantin;
+  src: url("palanquindark-semibold.ttf");
+}
+
+@font-face {
+  font-family: flatley;
+  src: url("Flatley.ttf");
+}
+
+@font-face {
+  font-family: longtime;
+  src: url("LongTime.ttf");
 }
